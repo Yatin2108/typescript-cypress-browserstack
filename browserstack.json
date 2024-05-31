@@ -40,7 +40,13 @@
             "@cypress/xpath": "^2.0.3"
         },
         "package_config_options": {},
-        "headless": false
+        "headless": false,
+        "testObservability": true,
+        "browserstackAutomation": true,
+        "testObservabilityOptions": {
+            "projectName": "projectName",
+            "buildName": "buildName"
+        }
     },
     "connection_settings": {
         "local": true,
